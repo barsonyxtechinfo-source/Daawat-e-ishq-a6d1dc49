@@ -1,0 +1,11 @@
+{
+  "name": "daawat-e-ishq",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm ci && npm run build",
+    "dev": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "jwt-decode": "^4.0.0"
+  }
+}
