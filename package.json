@@ -1,6 +1,9 @@
 {
   "name": "daawat-e-ishq",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "cd frontend && npm ci && npm run build",
     "dev": "cd frontend && npm start"
